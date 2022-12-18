@@ -6,351 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pricing</title>
     <script src="https://kit.fontawesome.com/c4c2af89bd.js" crossorigin="anonymous"></script>
-    <style>
-    #heading{
-        text-align: center;
-        text-align: center;
-        /* border: 1px solid red; */
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
-    #heading>div>button{
-        margin-top: 2%;
-
-    }
-    #dollor>button{
-        border-radius: 50%;
-    }
-    #box1{
-        display: flex;
-        gap: 5%;
-        text-align: center;
-        /* border: 1px solid red; */
-        padding-left: 7%;
-        padding: 50px 0px;
-        margin: auto;
-        justify-content: space-evenly;
-        width: 70%;
-      
-    }
-
-    #box1>div{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 350px;
-        flex-direction: column;
-       
-        
-
-    }
-    .pre{
-        border: 2px solid #4ea819;
-        margin-top: -35px;
-    }
-    .pre>button{
-        background-color: #4ea819;
-        height: 30px;
-        color: white;
-        border: 0px;
-        border-radius: 3px;
-       
-    }
-    #best_value{
-        background-color: #4ea819;
-        height: 35px;
-        margin-top: -25px;
-        color: white;
-    }
-    #box2{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
-        /* border: 1px solid red; */
-        width: 70%;
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .signup{
-        margin-top: 70px;
-        width: 15%;
-      
-        
-    }
-    .signup>button{
-        height: 45px;
-        width: 100%;
-        background-color: white;
-        color:#6c7378 ;
-        border: 1px solid #6c7378 ;
-        font-weight: bolder;
-        border-radius: 3px;
-    }
-    #see_full{
-        text-align: center;
-        color:  #6c7378;
-      
-    }
-    #see_full>a>h1{
-        color: #6c7378;
-
-    }
-    .higliy{
-        text-align: center;
-    }
-    .higliy>p{
-        color: #6c7378;
-    }
-    #grid1{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-    }
-    #capterra{
-    background-color:#007dbf;
-    text-align: center;
-    color: white;
-    display: flex;
-    
-    }
-    #capterra>div>img{
-        width: 90px;
-       
-    }
-    #capterra>div{
-        margin: auto;
-        padding-right: 100px;
-        padding-left: 100px
-
-    }
-    #comparison{
-        text-align: center;
-    }
-    #also_see{
-        text-align: center;
-    }
-    #all_see_in{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        width: 70%;
-        margin: auto;
-    }
-    .rating{
-        color:#f8b41c;
-    }
-    #table{
-        display: flex;
-        /* border: 1px solid red; */
-        margin: auto;
-        
-    }
-    #table>div{
-        /* border: 1px solid red; */
-        margin: auto;
-    }
-   
-    #margin>td>h4{
-         margin-left: 250px;
-
-    }
-    .h1_ding{
-        text-align: center;
-    }
-    .green{
-        width: 100%;
-        height: 250px;
-        background-color: #4ea819;
-        text-align: center;
-    }
-    .green>h1{
-        color: white;
-        text-align: center;
-        padding-top: 50px;
-        font-style:inherit;
-    }
-    .green>button{
-        background: #4ea819;
-        border: 1px solid white;
-        color: white;
-        height: 40px;
-    }
-    .green>input{
-        height: 35px;
-        width: 250px;
-    }
-    .green>p{
-        color: white;
-    }
-    #ul_table{
-        display: flex;
-        /* border: 1px solid red; */
-        justify-content: space-between;
-    }
-    #ul_table>div>ul{
-        color:#6c7378 
-    }
-    #last1{
-        background-color: #ebecec;
-    }
-    #last{
-        display: flex;
-        background-color: #ebecec;
-    }
-    #last>button{
-        background-color: #4ea819;
-    }
-    #button{
-        /* border: 1px solid red; */
-        height: 300px;  
-        
-    }
-    #button>div{
-        margin: auto; 
-        text-align: center;
-        width: 600px;
-        align-items: center;
-        padding: 5px;
-       
-    }
-    #button>div>button{
-        height: 60px;
-        width: 800px;
-    }
-  
-    #icon{
-        
-        display: flex;
-        
-    }
-    #icon>i{
-        height: 80px;
-        width: 20px;
-    }
-    #x_mark1{
-        color:  #6c7378;
-    }
-    #table_div{
-        /* border: 1px solid red; */
-        margin: auto; 
-        align-items: center; 
-        
-    }
-    #table_1>td{
-       margin: auto; 
-        
-
-    }
-    #margin{
-        margin: auto;
-        margin-left: 40px;
-    } 
-    #table_1{
-        width:890px;
-        align-items: center;
-    }
-    #table_2{
-        width: 660px;
-        align-items: center;
-    }
-    #table_3{
-        width: 640px;
-        align-items: center;
-    }
-    #tr1>h3{
-        margin: auto;
-        align-items: center;
-    }
-    #tr2{
-        padding: 20px;
-        align-items: center;
-    }
-    #div_table_1{
-      padding-left: 150px;
-    }
-    #div_table_1>h5{
-       padding-left: 33px;
-       padding-top: 20px;
-    }
-    #div_table_2>h5{
-       padding-left: 33px;
-       padding-top: 20px;
-    }
-    #div_table_3>h5{
-       padding-left: 33px;
-       padding-top: 20px;
-    }
-    #div_table_4>h5{
-       padding-left: 33px;
-       padding-top: 20px;
-    }
-    #div_table_5{
-        padding-right: 150px;
-        padding-top: 20px;
-    }
-    #div_table_5>h5{
-       padding-left: 33px;
-       padding-top: 10px;
-    }
-    #div_table_6>h5{
-       padding-left: 33px;
-       padding-top: 15px;
-    }
-
-    /* problem table */
-    #div_box>div{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        width: 80%;
-        margin: auto;
-        
-    }
-    #div_box>p{
-        font-size: 13px;
-        margin-top: -3px;
-        color: #5a5c5d;
-        font-weight: bold;
-    }
-    #div_box>h4{
-        color: #475056;
-        font-weight: bold;
-        font-size: 17px
-    }
-    #div_box>div>div>i{
-      margin-top: 25px;
-      padding-left: 20px;
-    }
-    #div_border{
-        /* border: 1px solid red; */
-        background-color: #d6d8d9;
-        color: #475056;
-        font-weight: bold;
-    }
-    #div_border>h3{
-        font-weight:bolder;
-
-    }
-    #free{
-        padding-left: 20px;
-    }
-    #line{
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-       
-    }  
-    #x_mark1{
-        color:  #6c7378;
-    }
-    /* problem table */
-    
-    </style>
+    <link rel="stylesheet" href="pricing.css">
+     <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
+  <div id="logo">
+    <img src="https://desktime.com/static/logo/logo-dark-without-padding.svg" alt="">
+    
+    
+    <a href="demo.html">Demo</a>
+    <a href="features.html">Features</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="aboutus.html">About us</a>
+    <a href="btn FAQ">FAQ</a>
+    <a href="btn Blog">Blog</a>
+  
+    <button a id="btn">LOGIN <a href="loginpage.html"></a></button>
+    <button id="btns"> SING UP</button>
+    <select>
+        <option>EN</option>
+    </select>
+</div>
     <div id="heading">
     <h1>Get the best price for your team</h1>
     <div>The industry-leading automatic time tracking and management system. <br>
          If you'd like to get a personalised pricing quote contact us here.</div>
-       <div>
-           <button>Monthly</button>
-           <button>Annual</button>
-           <div id="dollor"> <p>1 Month free with annual plan</p>
+       <div id="button_flex">
+           <button style="background-color: #333c43; color: white;">Monthly</button>
+           <button style="margin-left: 1px;">Annual</button>
+          <div id="money_tag">
             <button> ₹</button>
             <button>$</button>
             <button> €</button>
+        </div>
            </div>
+           <div id="dollor"> <p>1 Month free with annual plan</p>
        </div> 
     </div>
    <div id="box1">
@@ -358,7 +48,7 @@
         <h4>Pro</h4>
         <h2> ₹560</h2>
         <p>user/month </p>
-        <button>START FREE TRIAL</button>
+        <button id="all_button">START FREE TRIAL</button>
         <P>No credit card required.</P>
         <h6>Basic features</h6>
         <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>
@@ -378,7 +68,7 @@
         <h4>Premium</h4>
           <h2>₹800 </h2>
            <p>user/months</p> 
-          <button>START FREE TRIAL</button>
+          <button style="width: 170px;height: 36px;">START FREE TRIAL</button>
           <P>No credit card required.</P>
           <h6>pro plus:</h6> 
           <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>
@@ -398,7 +88,7 @@
            <h4>Enterprise</h4>
            <h2>₹11600</h2>
            <p>user/month</p>
-           <button>START FREE TRIAL</button>
+           <button id="all_button">START FREE TRIAL</button>
            <P>No credit card required.</P>
            <h6>Premium plus</h6>
            <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>VIP support</p>
@@ -449,7 +139,7 @@
 <div>
     <div id="capterra">
        <div><img id="capt" src="https://desktime.com/static/web/_common/ratings/capterra.svg" alt=""></div> 
-        <div>
+        <div id="de">
            <h1>DeskTime</h1>
            <div class="rating" >
            <i class="fa-solid fa-star"></i>
@@ -854,23 +544,36 @@
   </div>
 
   <div id="last1">
-    <img src="https://desktime.com/static/logo/logo-dark-without-padding.svg" alt="">
-    <div id="last">
-
+    <div id="last_icon">
+  <div><img src="https://desktime.com/static/logo/logo-dark-without-padding.svg" alt=""></div> 
+    
      <i class="fa-brands fa-square-facebook"></i>
      <i class="fa-brands fa-twitter"></i>
      <i class="fa-brands fa-youtube"></i>
      <i class="fa-brands fa-linkedin"></i>
      <i class="fa-brands fa-skype"></i>
      <i class="fa-brands fa-whatsapp"></i>
-  
-
-    <p>Subscribe to our newsletter</p>
-      <input type="email"  placeholder="Your work email"> 
-     <button>Subscribe</button>
-   
     </div>
-  </div>
+  <div>
+    <img src="https://images.squarespace-cdn.com/content/v1/57923378ebbd1a9829570952/1550736662154-RCDC50WSXTAGPGE59P0T/6a248cbe42c32b17de10b5cc8e9c0f69.png?format=300w" id="play_store" alt="">
+    <img src="https://www.rdsdelivery.com/wp-content/uploads/2016/11/apple-app-store-icon-300x104.png.webp" id="app_store" alt="">
+    <div id="subscribe">
+    <p>Subscribe to our newsletter</p>
+      <input type="email"  placeholder="Type in your email"> 
+     <button>Subscribe</button>
+    </div>
+    </div> 
+   
+</div>
+<div id="part_of_group">
+    <div>
+        <p id="date_2011">© 2011 - 2022 DeskTime</p>
+    </div>
+    <div><p id="part_of">PART OF</p>
+        <br><h4>DRAUGIEM GROUP</h4>
+    </div>
+</div>
+<script src="./signup.js"></script>
 
 </body>
 </html>
