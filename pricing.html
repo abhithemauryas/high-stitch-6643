@@ -4,60 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pricing</title>
     <script src="https://kit.fontawesome.com/c4c2af89bd.js" crossorigin="anonymous"></script>
-    <style>
-    #heading{
-        text-align: center;
-        text-align: center;
-        border: 1px solid red;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
-    #heading>div>button{
-        margin-top: 2%;
-
-    }
-    #dollor>button{
-        border-radius: 50%;
-    }
-    #box1{
-        display: flex;
-        gap: 5%;
-        text-align: center;
-        border: 1px solid red;
-        padding-left: 7%;
-    }
-    #box1>div{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 350px;
-        
-
-    }
-    .pre{
-        border: 2px solid #4ea819;
-    }
-    .pre>button{
-        background-color: #4ea819;
-        height: 30px;
-        color: white;
-        border: 0px;
-        border-radius: 3px;
-    }
-    </style>
+    <link rel="stylesheet" href="pricing.css">
+     <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
+  <div id="logo">
+    <img src="https://desktime.com/static/logo/logo-dark-without-padding.svg" alt="">
+    
+    
+    <a href="demo.html">Demo</a>
+    <a href="features.html">Features</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="aboutus.html">About us</a>
+    <a href="btn FAQ">FAQ</a>
+    <a href="btn Blog">Blog</a>
+  
+    <button a id="btn">LOGIN <a href="loginpage.html"></a></button>
+    <button id="btns"> SING UP</button>
+    <select>
+        <option>EN</option>
+    </select>
+</div>
     <div id="heading">
     <h1>Get the best price for your team</h1>
     <div>The industry-leading automatic time tracking and management system. <br>
          If you'd like to get a personalised pricing quote contact us here.</div>
-       <div>
-           <button>Monthly</button>
-           <button>Annual</button>
-           <div id="dollor"> <p>1 Month free with annual plan</p>
+       <div id="button_flex">
+           <button style="background-color: #333c43; color: white;">Monthly</button>
+           <button style="margin-left: 1px;">Annual</button>
+          <div id="money_tag">
             <button> ₹</button>
             <button>$</button>
             <button> €</button>
+        </div>
            </div>
+           <div id="dollor"> <p>1 Month free with annual plan</p>
        </div> 
     </div>
    <div id="box1">
@@ -65,7 +48,7 @@
         <h4>Pro</h4>
         <h2> ₹560</h2>
         <p>user/month </p>
-        <button>START FREE TRIAL</button>
+        <button id="all_button">START FREE TRIAL</button>
         <P>No credit card required.</P>
         <h6>Basic features</h6>
         <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>
@@ -80,10 +63,12 @@
         <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>Mobile app</p>
         <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>User integrations</p>
      </div>
-     <div class="pre"> <h4>Premium</h4>
+     <div class="pre">
+       <div id="best_value"><h2>BEST VALUE</h2></div>
+        <h4>Premium</h4>
           <h2>₹800 </h2>
            <p>user/months</p> 
-          <button>START FREE TRIAL</button>
+          <button style="width: 170px;height: 36px;">START FREE TRIAL</button>
           <P>No credit card required.</P>
           <h6>pro plus:</h6> 
           <p> <i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>
@@ -103,7 +88,7 @@
            <h4>Enterprise</h4>
            <h2>₹11600</h2>
            <p>user/month</p>
-           <button>START FREE TRIAL</button>
+           <button id="all_button">START FREE TRIAL</button>
            <P>No credit card required.</P>
            <h6>Premium plus</h6>
            <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>VIP support</p>
@@ -118,10 +103,477 @@
       </div>
     </div>
    </div>
-  
-  
+  <div>
+    <div id="box2">
+        <div>
+          <h3>DeskTime Lite</h3>
+          <h1>₹0</h1> 
+          <p>1 User only</p>
+        </div>
+        <div>
+          <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>Automatic time tracking</p>
+          <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>
+            URL and app tracking</p>
+          <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>Integrated web timer</p>
+          <p><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i>Mobile app</p>
+        </div> 
+        <div class="signup">
+         <button>SIGN UP</button>
+       </div>
+  </div>
+  <div id="see_full"> <a href=""><h1>See full comparison</h1></a></div>
 
 
+    <div class="higliy">
+        <h1>Highly rated. Globally trusted.</h1>
+       <p>DeskTime is one of the leading time tracking apps on the market</p>
+    </div>
+ <div id="grid1">
+      <div><img src="https://desktime.com/static/web/_common/awards/g2-leader-summer-2022.png" alt=""></div>
+      <div><img src="https://desktime.com/static/web/_common/awards/g2-leader-europe-summer-2022.png" alt=""></div>
+      <div><img src="https://desktime.com/static/web/_common/awards/g2-leader-asia-summer-2022.png" alt=""></div>
+      <div><img src="https://desktime.com/static/web/_common/awards/capterra-badge.png" alt=""></div>
+      <div><img src="https://desktime.com/static/web/_common/awards/softwareadvice-badge-2022.png" alt=""></div>
+     <div><img src="https://desktime.com/static/web/_common/awards/30daymoneyback-award.png" alt=""></div>
+</div>
+<div>
+    <div id="capterra">
+       <div><img id="capt" src="https://desktime.com/static/web/_common/ratings/capterra.svg" alt=""></div> 
+        <div id="de">
+           <h1>DeskTime</h1>
+           <div class="rating" >
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star-half-stroke"></i>
+       
+        
+           <button>462 reviews</button>
+        </div>
+          <p>Reviews and ratings from real users on Capterra - software <br>
+             rating platform.</p>
+    </div>
+     </div>
+         <div id="comparison"><h1>Comparison</h1></div>
+
+        <!-- problem table  -->
+        <div id="div_box">
+            <div id="div_border">
+         <div><h3>Basic time tracking
+        </h3></div>
+         <div id="free"><h3>free</h3></div>
+         <div><h3>Pro</h3></div>
+         <div><h3>Premium</h3></div>
+         <div><h3>Enterprise</h3></div>
+        </div>
+         <div  id="line">
+            <div  id="div_box">
+           <h4>Automatic time tracking</h4>
+           <p>Fully automated and easy-to-use desktop app</p>
+            </div>
+           <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+        </div>
+           <div  id="line">
+            <div id="div_box">
+               <h4>Integrated web timer</h4>
+             <p>An iOS and Android mobile app for time tracking</p>
+            </div>
+            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           </div>
+            
+           <div  id="line">
+           <div id="div_box">
+             <h4>Mobile app</h4>
+             <p>An iOS and Android mobile app for time tracking</p>
+             </div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            </div>
+              
+             <div  id="line">
+             <div id="div_box">
+                <h4>URL and app tracking</h4>
+                <p>Track used programs, applications and webpages by name</p>
+                </div>
+                <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            </div>
+            <div  id="line">
+                <div id="div_box">
+                    <h4>Productivity calculation</h4>
+                    Customize and track actions spent productively, unproductively or neutrally
+                    </div>
+                    <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                    <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                </div>
+                 <div  id="line">
+                    <div id="div_box">
+                        <h4>Idle time tracking</h4>
+                        <p>Track breaks and time spent away from the computer</p>
+                        </div>
+                        <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    </div>
+                    <div id="div_border">
+                        <div><h3>Detailed time and project management
+                       </h3></div>
+                        <div id="free"><h3>free</h3></div>
+                        <div><h3>Pro</h3></div>
+                        <div><h3>Premium</h3></div>
+                        <div><h3>Enterprise</h3></div>
+                       </div>
+                    <div id="line">
+                        
+                        <div id="div_box">
+                            <h4>Document title tracking</h4>
+                            <p>Track document names, email subjects and program titles</p>
+                            </div>
+                            <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                            <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                        </div>
+    
+                   <div  id="line">
+                        <div id="div_box">
+                         <h4>Cost calculation</h4>
+                         <p>Estimate and automatically calculate project costs or employee wage rates</p>
+                         </div>
+                         <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                         <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    </div>
+    
+                     <div id="line">
+                        <div id="div_box">
+                            <h4>Private time option</h4>
+                            <p>Enable Private time for off-the-clock computer use</p>
+                            <p></p>
+                            </div>
+                            <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    </div>
+    
+                 <div id="line">
+                        <div id="div_box">
+                         <h4>Pomodoro timer</h4>
+                         <p>An automatic break time remind for a better work-life balance</p>
+                         </div>
+                         <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                        <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                         <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                           <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                 </div>
+                 <div>
+                    <div>
+                      <h4>Automatic screenshots </h4>
+                      <p>Use optional screenshots at selected intervals for proof-of-work</p>
+                     </div>
+                     <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                     <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                      <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                      <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                       </div>
+                       <div id="div_border">
+                        <div><h3>Custom features and workforce management
+                       </h3></div>
+                        <div id="free"><h3>free</h3></div>
+                        <div><h3>Pro</h3></div>
+                        <div><h3>Premium</h3></div>
+                        <div><h3>Enterprise</h3></div>
+                       </div>
+                 
+                 
+                <div id="line">
+                     <div id="div_box">
+                     <h4>Team contacts</h4>
+                     <p>See all your team members and their contact information in one place</p>
+                      </div>
+                      <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                      <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                      <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                </div>
+    
+              <div id="line">
+                   <div id="div_box">
+                    <h4>Custom reports</h4>
+                    <p>Create and export detailed reports, add them to invoices, and more</p>
+                     </div>
+                     <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                     <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                     <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                    <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+              </div>
+            <div id="line">
+                <div id="div_box">
+                 <h4>User integrations</h4>
+                 <p>Sync DeskTime with your Google and Outlook calendars for a seamless workflow</p>
+                  </div>
+                  <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           </div>
+           <div id="line">
+            <div id="div_box">
+             <h4>Absence calendar</h4>
+             <p>See who's sick, on vacation, out-of-office, and more</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            </div>
+             <div id="line">
+                <div id="div_box">
+                 <h4>Shift Scheduling</h4>
+                 <p>Plan human resources and manage all employee shifts in one place</p>
+                  </div>
+                  <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+           </div>
+       
+           <div id="line">
+            <div id="div_box">
+             <h4>Offline time approval</h4>
+             <p>Approve or decline your employees' filled-in offline time requests</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+            </div>
+            <div id="line">
+                <div id="div_box">
+                 <h4>IP restrictions</h4>
+                 <p>IP restrictions
+                    Allow DeskTime to track time only from specific IP addresses</p>
+                  </div>
+                  <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                  <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+          
+             </div>
+       <div id="line">
+            <div id="div_box">
+             <h4>VIP support</h4>
+             <p>Get fast and personalized priority support</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+      
+            </div>  
+         <div id="line">
+            <div id="div_box">
+             <h4>Personalized onboarding</h4>
+             <p>Get free and unlimited personalized onboarding and demos for your whole team</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+      
+            </div>
+         <div id="line">
+            <div id="div_box">
+             <h4>Unlimited projects and tasks</h4>
+             <p>Create and sync an unlimited number of projects and tasks</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+              <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+              <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+      
+            </div>
+       <div id="line">
+            <div id="div_box">
+             <h4>Unlimited data history</h4>
+             <p>Get unlimited data history access and never loose any information</p>
+              </div>
+              <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+             <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+      
+            </div>
+            <div id="line">
+                <div id="div_box">
+                 <h4>Custom API functions</h4>
+                 <p>Request custom API functions to fully customize DeskTime for your company needs</p>
+                  </div>
+                  <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-xmark" id="x_mark1"></i></div>
+                 <div><i class="fa-sharp fa-solid fa-check" style="color: #4ea819;"></i></div>
+          
+                </div>
+        </div>
+                                                
+     </div>
+        <!-- problem table  -->
+         
+    <div  id="frequently"><h1>Frequently asked questions</h1></div>
+    <div id="button">
+       <div><button>How much does DeskTime cost?</button></div>
+       <div> <button>How can I subscribe?</button> </div>
+       <div> <button>What is the difference between monthly and annual billing?</button></div>
+       <div><button>How can I add or remove users from my plan?</button></div>
+  </div>
+    
+    <div id="also_see"><h1>Also seen in</h1></div>
+    <div id="all_see_in">
+      <div><img src="https://desktime.com/static/web/pricing/observer-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/ladders-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/businessinsider-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/lifehack-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/verge-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/wired-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/glassdoor-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/mashable-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/forbes-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/thewashingtonpost-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/themuse-logo.svg" alt=""></div>
+      <div><img src="https://desktime.com/static/web/pricing/yahoofinance-logo.svg" alt=""></div>
+    </div>
+
+    <div class="green">
+        <h1>Ready for your free trial?</h1>
+            <input type="email"  placeholder="Your work email"> 
+            <button>START FREE TRIAL</button>
+            <p>Try free for 14 days. No credit card required. <br>
+
+                By signing up, you agree to our terms and privacy policy.</p>
+    </div>
+
+     
+
+  <div  id="ul_table">
+      <div id="div_table_1">
+      <h5>company</h5>
+      <ul>Home</ul>
+      <ul>Terms</ul>
+      <ul>Privacy</ul>
+      <ul>Cookies</ul>
+      <ul>Affiliate terms</ul>
+      <ul>Download app</ul>
+      <ul>Pricing</ul>
+      <ul>Affiliate</ul>
+      <ul>Press</ul>
+      <ul>DeskTime in your</ul>
+      <ul>language</ul>
+      </div>
+      <div id="div_table_2">
+      <h5>Learn more</h5>
+      <ul>All resources</ul>
+      <ul>Employee monitoring guide</ul>
+      <ul>Online employee time clock</ul>
+      <ul>Best time tracking apps</ul>
+      <ul>DeskTime for business</ul>
+      <ul>DeskTime for freelancers</ul>
+      <ul>FAQ</ul>
+      <ul>Case studies</ul>
+      <ul>Webinars</ul>
+      <ul>Blog</ul>
+      </div>
+      <div id="div_table_3">
+      <h5>Integrations</h5>
+      <ul>All integrations</ul>
+      <ul>Trello</ul>
+      <ul>Basecamp</ul>
+      <ul>Jira</ul>
+      <ul>Asana</ul>
+      <ul>Outlook Calendar</ul>
+      <ul>Google Calendar</ul>
+      </div>
+      <div id="div_table_4">
+       <h5>Features</h5>
+       <ul>All features</ul>
+       <ul>Automatic time</ul>
+       <ul>tracking</ul>
+       <ul>URL & App tracking</ul>
+       <ul>Screenshots</ul>
+       <ul>Project time</ul>
+       <ul>tracking</ul>
+       <ul>Shift schedule</ul>
+       <ul>Offline time tracking</ul>
+       <ul>Absence calendar</ul>
+       <ul>Mobile app</ul>
+       <ul>Feature request</ul>
+      </div>
+
+      <div id="div_table_5">
+          <h5>Help center</h5>
+          <ul>Contact us</ul>
+          <ul>Schedule a call</ul>
+          <ul>Send us an e-mail</ul>
+          <ul>Request In-person</ul>
+          <ul>training</ul>
+          <ul>Open chat</ul>
+      
+       <div id="div_table_6">
+       <h5> Phone support</h5></div>
+       <ul>+1 (315) 6365354</ul>
+       <ul>MON-FRI</ul>
+       <ul>9:00-22:00 EET</ul>
+
+      </div>
+  </div>
+
+  <div id="last1">
+    <div id="last_icon">
+  <div><img src="https://desktime.com/static/logo/logo-dark-without-padding.svg" alt=""></div> 
+    
+     <i class="fa-brands fa-square-facebook"></i>
+     <i class="fa-brands fa-twitter"></i>
+     <i class="fa-brands fa-youtube"></i>
+     <i class="fa-brands fa-linkedin"></i>
+     <i class="fa-brands fa-skype"></i>
+     <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  <div>
+    <img src="https://images.squarespace-cdn.com/content/v1/57923378ebbd1a9829570952/1550736662154-RCDC50WSXTAGPGE59P0T/6a248cbe42c32b17de10b5cc8e9c0f69.png?format=300w" id="play_store" alt="">
+    <img src="https://www.rdsdelivery.com/wp-content/uploads/2016/11/apple-app-store-icon-300x104.png.webp" id="app_store" alt="">
+    <div id="subscribe">
+    <p>Subscribe to our newsletter</p>
+      <input type="email"  placeholder="Type in your email"> 
+     <button>Subscribe</button>
+    </div>
+    </div> 
+   
+</div>
+<div id="part_of_group">
+    <div>
+        <p id="date_2011">© 2011 - 2022 DeskTime</p>
+    </div>
+    <div><p id="part_of">PART OF</p>
+        <br><h4>DRAUGIEM GROUP</h4>
+    </div>
+</div>
+<script src="./signup.js"></script>
 
 </body>
 </html>
