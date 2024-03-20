@@ -13,12 +13,6 @@ Amazon.com Inc (Amazon) is an online retailer and web service provider. The comp
 # Home Page..
 ![Screenshot (1939)](https://github.com/abhithemauryas/Amazon-clone/assets/115460755/9e05e683-840c-4172-abb5-5c1c95c76834)
 
-
-# Products Page
-
-![Screenshot (1919)](https://github.com/abhithemauryas/Amazon-clone/assets/115460755/0cf61780-44ae-485a-9355-94ff119e198f)
-
-
 # Demo page
 ![Screenshot (1941)](https://github.com/abhithemauryas/Amazon-clone/assets/115460755/f1bfef24-530c-42b4-b240-7c6d296f68d6)
 
