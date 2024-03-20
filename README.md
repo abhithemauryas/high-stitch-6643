@@ -1,7 +1,7 @@
 # Desktime_Project
 
 # Discription :- 
-Amazon.com Inc (Amazon) is an online retailer and web service provider. The company provides products such as apparel, auto and industrial items, beauty and health products, electronics, grocery, games, jewelry, kids and baby products, music, sports goods, toys, and tools.
+DeskTime can be used for remote employee monitoring with the help of automatic time tracking and time tracking screenshots features.
 
 # Tech Stack :-
 
